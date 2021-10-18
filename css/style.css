@@ -1,0 +1,68 @@
+html, body{
+  padding:0;
+  margin:0;
+}
+
+.container{
+  background-color: #85DCBA; 
+  color: #fa5e33; 
+  font-size: 21px; 
+  font-family: sans-serif;
+}
+
+.nav ul{
+  margin:0;
+}
+
+.nav li{
+  float:left;
+}
+
+.nav a{
+  margin: 10px;
+  padding:2px;
+  color: #ffae00;
+  text-decoration:none;
+  float:left;
+}
+
+.nav a:hover, focus{
+  background-color: #fa5e33;
+}
+
+.nav .signup{
+  float:left;
+}
+
+.main-header h1{
+  clear:both;
+  margin: 30px;
+}
+
+.main-nav{
+  text-align:center;
+}
+
+body{
+  background-color: #85DCBA;
+}
+
+.main-header{
+  background-color: rgba(0, 0, 139, .3);
+  background-image: url("../img/sky_background.png");
+  background-size: cover;
+  background-blend-mode: multiply;
+  color: #fa5e33;
+  padding: 20px;
+  margin: 10px;
+
+}
+
+footer{
+  background-color: rgba(0, 0, 139, .5);
+  background-image: url("../img/black_background.jpg");
+  background-size: cover;
+  background-blend-mode: multiply;
+
+}
+
